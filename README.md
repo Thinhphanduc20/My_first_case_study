@@ -38,13 +38,9 @@ Here are some of the information that I found out after analyzing the data.
 
 The merged data, all_trips data has 4460151 observations, after removing blank data, all_trips_v2 has 4450279 observations.
 The table below shows over 1 year how many times the customer used each type of bike.
- member_casual rideable_type       n
-1        member   docked_bike 1072362
-2        casual   docked_bike  968186
-3        member  classic_bike  824827
-4        member electric_bike  626779
-5        casual electric_bike  504357
-6        casual  classic_bike  453768
+
+<img arc = "image/graph1.png" >
+
 It can be seen that the docked bike is the most being used bike in Cyclistic. Casual customers prefer electric bikes to classic bikes, while on the other hand, it is the opposite in member customers.
 
 The table below shows the top 10 of over 1 year on which day of the week the customer used the service.
