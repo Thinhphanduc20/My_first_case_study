@@ -39,22 +39,14 @@ Here are some of the information that I found out after analyzing the data.
 The merged data, all_trips data has 4460151 observations, after removing blank data, all_trips_v2 has 4450279 observations.
 The table below shows over 1 year how many times the customer used each type of bike.
 
-<img arc = "image/graph1.png" >
+![table](https://user-images.githubusercontent.com/92159191/136660127-1c0a1bae-74c9-40cb-856f-22ef38135c92.png)
 
 It can be seen that the docked bike is the most being used bike in Cyclistic. Casual customers prefer electric bikes to classic bikes, while on the other hand, it is the opposite in member customers.
 
 The table below shows the top 10 of over 1 year on which day of the week the customer used the service.
-   day_of_week member_casual      n
-1     Saturday        casual 438911
-2    Wednesday        member 388301
-3     Saturday        member 375800
-4       Friday        member 373845
-5       Sunday        casual 366054
-6      Tuesday        member 363607
-7     Thursday        member 363082
-8       Monday        member 336810
-9       Sunday        member 322523
-10      Friday        casual 280655
+   
+![table2](https://user-images.githubusercontent.com/92159191/136660170-941028a8-f5c5-40c7-857e-a64b4817514d.png)
+
 In over 1 year, on Saturday, the number of 1-time-use customers is highest. Subscription customers most likely rode the bike on Wednesday, Friday, and Saturday.
 
 The stations where people mostly start over 1 year are:
@@ -66,21 +58,16 @@ The stations where people mostly start over 1 year are:
 -Theater on the Lake
 
 And finally, I want to find out the connection between the length of the ride and the day of the week.
-   day_of_week    ride_length                n
-1    Wednesday    328 secs ~ 5 min 28 sec    621
-2       Friday    331 secs ~ 5 min 31 sec    619
-3       Friday    387 secs ~ 6 min 27 sec    616
-4    Wednesday    404 secs ~ 6 min 44 sec    607
-5    Wednesday    356 secs ~ 5 min 56 sec    606
-6    Wednesday    392 secs ~ 6 min 32 sec    602
-7       Friday    410 secs ~ 6 min 50 sec    600
-8       Friday    448 secs ~ 7 min 28 sec    599
-9       Friday    453 secs ~ 7 min 33 sec    599
-10   Wednesday    352 secs ~ 5 min 52 sec    598
+
+![table3](https://user-images.githubusercontent.com/92159191/136660226-fd28f019-5757-4e01-8f56-c99232418469.png)
+
 Most of the trips were on the weekday, about 5 to 7 minutes long. It can be said that people in Chicago used this service to go to work as a different way to move around in the city.
 
 # Step 5 - Share
 I created some tables around the data for further analysis.
+
+![graph1](https://user-images.githubusercontent.com/92159191/136660278-391c455f-d412-4f1f-8955-fde584fbee1d.png)
+
 
 The average time of using the bike of each type of customer on each day of the week.
 This graph shows the average time per trip of Cyclistic's users each day of the week from July 2020 to June 2021. On both sides, it can be clearly seen that time users used the docked bike is the most, after that is the classic bike and electric bike.
@@ -90,6 +77,10 @@ On the casual side, I saw the trends of the day people used bikes quiet differen
 To the right side of the graph, although the popularities of the types of the bike is the same to the left side, on the other hand, as subscription customers, each type of bike shared the same trend, which went down from Sunday, hit the bottom on Wednesday and raised up until Saturday. Docked bike users in this part of the graph were also the ones who spent most of the time riding a bike, however, comparing to the left side of the graph, the difference between the average using bike of each type was not that much. Also, the highest average time of member customers was about more than 1000s ~ 16 minutes 40 seconds.
 
 The number of ride in each day of the week over a year of each type of customer.
+
+![graph2](https://user-images.githubusercontent.com/92159191/136660296-ce22a65e-4611-4836-9fde-844c71ddf94f.png)
+
+
 The next graph is about how many times customers of Cyclistic used each type of bike each month of the year. The e letter present 10000, so for the number of ride column, we can understand that 0e + 00 as 0 time, 1e + 05 as 10000 times, 2e + 05 as 20000 times, and 3e + 05 as 30000 times.
 
 On both sides of the graph, it can be seen a trend, which shows the rising of the time people rode a bike of Cyclistic from March, reached a peak around in July 2020 for casual customers and August 2020 for member customers. After that, the number fell down fastly until December 2020 and raised up steadily from March 2021 until June 2021. Also. from July 2020 to September 2020, the docked bike is likely to be used by the customers. Finally, electric bikes and classic bikes were used most of the time from October to next year June.
