@@ -1,5 +1,5 @@
 # My_first_case_study
-Hello, everyone. My name is Thinh. This year August, I have completed my Google Data Analytics Course from Coursera. This article is about one of the case studies for the final course of the certification. Before I started, I would like to thank everyone who is the teacher of this course, people on the internet who provided the information about the R programming language, and my friends who helped me understand the basics of coding and data analyzing.
+Hello, everyone. My name is Thinh. This year August, I have completed my Google Data Analytics Course from Coursera. This project is about one of the case studies for the final course of the certification. Before I started, I would like to thank everyone who is the teacher of this course, people on the internet who provided the information about the R programming language, and my friends who helped me understand the basics of coding and data analyzing.
 
 # Scenario
 
@@ -113,6 +113,5 @@ My suggestion for how can Cyclistic use digital media to influence casual riders
 
 * For member customers, it can be seen that Cyclistic has the huge potentiation in business like transportations and delivery, so the company can provide a new service and run an ad tells about how Cyclistic reduce the fee (about 10-15%) of the user if the customer is the employee of a food delivery company in the city like Uber, or fast-food chains like McDonald.
 
-# Personal final though
-From the bottom of my heart, thank you for reading this article to the end! This is my first case study after the course from Google, so I believe it is not perfect. After reading this article, please tell me in the comment sections how you feel about my article, where I can improve and how should I make this article become more accessible for everyone.
+
 
